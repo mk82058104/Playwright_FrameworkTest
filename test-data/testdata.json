@@ -1,0 +1,32 @@
+{
+    "login":{
+        "username":"mk82058105@gmail.com",
+        "password": "Mohit@123"
+    },
+    
+    "books":{
+        "confirmationmsgproductisadded":"The product has been added to your shopping cart",
+        "computing_and_Internet":"Computing and Internet",
+        "fiction":"Fiction"
+
+    },
+
+    "address":{
+        "billing_address":"New Address",
+        "country_name":"India"
+        
+    },
+
+    "playmentInfo":{
+        "payment_mode_by_cod":"You will pay by COD"
+    },
+    "orderconfirmation":{
+        "order_confirmation_msg":"Your order has been successfully processed!"
+    }
+    
+
+    
+
+    
+
+}
