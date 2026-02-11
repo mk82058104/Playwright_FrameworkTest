@@ -77,11 +77,15 @@ test('Valdiate order the Books',async({page})=>{
     (confirmationOrderPage.computingAndInternetBook,bookData.computing_and_Internet)
     await assertText
     (confirmationOrderPage.fictionBook,bookData.fiction)
+    await page.waitForTimeout(1000)
     await click(confirmationOrderPage.confirmBtn)
+    //await page.waitForTimeout(4000)
     await assertText
     (confirmationOrderPage.orderSuccessfulMsg,orderconfirmationData.order_confirmation_msg)
+   // await page.waitForSelector(orderSuccessfulMsg)
     await validateOrderNumberRegex(confirmationOrderPage.orderNumber)
-    await page.waitForTimeout(2000)})
+   //await page.waitForTimeout(2000)
+})
 
 
 
