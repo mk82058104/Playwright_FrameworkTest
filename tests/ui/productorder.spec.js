@@ -79,7 +79,7 @@ test('Valdiate order the Books',async({page})=>{
     (confirmationOrderPage.fictionBook,bookData.fiction)
     await page.waitForTimeout(1000)
     await click(confirmationOrderPage.confirmBtn)
-    //await page.waitForTimeout(1000)
+    await page.waitForTimeout(1000)
     await assertText
     (confirmationOrderPage.orderSuccessfulMsg,orderconfirmationData.order_confirmation_msg)
    // await page.waitForSelector(orderSuccessfulMsg)
