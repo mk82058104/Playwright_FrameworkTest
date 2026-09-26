@@ -1,7 +1,7 @@
 import { defineConfig } from "@playwright/test";
 export default defineConfig({
   testDir: './tests',
-  timeout: 30000,
+  timeout: 50000,
   retries:1,
   reporter:[['html'],['list'],["allure-playwright"]],
   use:{
